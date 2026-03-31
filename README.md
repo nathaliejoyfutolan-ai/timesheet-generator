@@ -1,12 +1,34 @@
-Automates timesheet processing, hour calculations, and reporting using Excel Office Scripts.
+# Timesheet Automation System (Excel Office Scripts)
 
-## Tools Used
+This project automates timesheet processing, reporting, and data cleanup using Excel Office Scripts.
+
+## 🚀 Features
+
+- Generate timesheet reports from raw data
+- Reset processed data for new cycles
+- Clean and reset raw data inputs
+- Reduce manual work and errors in payroll processing
+
+## 🛠 Tools Used
+
 - Excel Office Scripts
-- Power Apps
-- Excel formulas
+- Excel (data processing & reporting)
 
-## Features
-- Processes raw timesheet data
-- Calculates regular and overtime hours
-- Generates dashboard summaries
-- Reduces manual payroll work
+## 📂 Scripts Included
+
+- generate.ts — processes raw timesheet data and creates reports
+- reset.ts — resets generated outputs for a new cycle
+- reset-raw-data.ts — clears and prepares raw data inputs
+
+## 📈 Use Case
+
+Designed for operations teams handling:
+- employee time tracking
+- payroll preparation
+- reporting and dashboards
+
+## 💡 Result
+
+- Faster processing time
+- Reduced manual errors
+- Scalable workflow for recurring operations
